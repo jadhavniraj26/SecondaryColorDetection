@@ -10,7 +10,7 @@ time.sleep(2)  # Wait for the serial connection to initialize
 ser.flush()  # Clear the serial buffer
 
 # Power BI streaming dataset URL (replace with your own URL)
-power_bi_url = "https://api.powerbi.com/beta/c7b00d7f-ad99-442a-b12f-c2c912044fdc/datasets/c6f0ff2b-d19b-4785-9dc0-fc58d48f82c6/rows?experience=power-bi&key=woth8pZpJgrbtVhd620WjgHlWVxV1iLWUQ9BEp9NfsaTMjLWH2mePOn97iEF5NfDSOsdQWBvgt%2F8MCL9YrzK4w%3D%3D"
+power_bi_url = "#Enter Your Power BI API"
 
 def send_to_power_bi(red, green, blue):
     """Send RGB data with timestamp to Power BI using REST API"""
